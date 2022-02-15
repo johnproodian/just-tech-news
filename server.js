@@ -21,6 +21,6 @@ sequelize.sync({ force: false }).then(() => {
 
 
 
-// Thru 13.1.4; onto 13.1.5
+// Partially hru 13.2.5...next: 'has the password during the update'
 
 // password = 'Password1!'

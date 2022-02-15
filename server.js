@@ -21,6 +21,6 @@ sequelize.sync({ force: false }).then(() => {
 
 
 
-// Partially hru 13.2.5...next: 'has the password during the update'
+// Done with 13.2; onto 13.3
 
-// password = 'Password1!'
+// mysql password = 'Password1!'

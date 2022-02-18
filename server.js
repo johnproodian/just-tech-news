@@ -21,6 +21,6 @@ sequelize.sync({ force: false }).then(() => {
 
 
 
-// Done with 13.2; onto 13.3
+// Thru 13.5.4; onto 13.5.5
 
 // mysql password = 'Password1!'

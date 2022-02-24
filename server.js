@@ -4,6 +4,18 @@ const sequelize = require('./config/connection');
 const path = require('path');
 const exphbs = require('express-handlebars');
 const hbs = exphbs.create({});
+const session = require('express-session');
+const SequelizeStore = require('connect-session-sequelize')(session.Store);
+
+const sess = {
+    secret: 'Super secret secret',
+    cookie: {},
+    resave: false,
+    saveUninitialized: true,
+    store: new SequelizeStore({
+        db: sequelize
+    })
+};
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -14,6 +26,7 @@ app.set('view engine', 'handlebars');
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(session(sess));
 
 // turn on routes
 app.use(routes);
@@ -28,6 +41,6 @@ sequelize.sync({ force: false }).then(() => {
 
 
 
-// 2/3 thru 14.1.6, stuck on getting server to return stuff...
+// 1/3 thru 14.2.5, stuck on getting server to return stuff...
 
 // mysql password = 'Password1!'

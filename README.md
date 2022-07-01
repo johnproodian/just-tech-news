@@ -16,7 +16,7 @@ A tech news website where users can post, upvote, and comment on links to news a
 
 
 ## Website
-https://thawing-brook-41305.herokuapp.com/ (currently broken)
+https://thawing-brook-41305.herokuapp.com/
 
 ## What I Learned
 * implementing Sequelize ORM in a Node.js application

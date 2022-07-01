@@ -5,10 +5,15 @@ A tech news website where users can post, upvote, and comment on links to news a
 ## Screenshot
 
 ## Built With
+* HTML
+* CSS
 * JavaScript
 * Express.js
 * Handlebars.js
-* SQL/MySQL/Sequelize
+* SQL/MySQL
+* Sequelize
+* bcrypt
+
 
 ## Website
 https://thawing-brook-41305.herokuapp.com/ (currently broken)

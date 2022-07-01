@@ -10,6 +10,9 @@ A tech news website where users can post, upvote, and comment on links to news a
 * Handlebars.js
 * SQL/MySQL/Sequelize
 
+## Website
+https://thawing-brook-41305.herokuapp.com/ (currently broken)
+
 ## What I Learned
 * implementing Sequelize ORM in a Node.js application
 * defining models that use datatype validations

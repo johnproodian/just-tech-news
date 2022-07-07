@@ -2,7 +2,9 @@
 
 A tech news website where users can post, upvote, and comment on links to news articles. 
 
-## Screenshot
+## Screenshots
+![homepage](./readme-screenshots/homepage.png)
+![comments-page](./readme-screenshots/comments.png)
 
 ## Built With
 * HTML
